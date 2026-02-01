@@ -6,21 +6,39 @@ public class EnemyShoot : MonoBehaviour
     public float fireRate = 1.5f;
 
     private bool isAlive = true;
+    private bool canShoot = false;
 
     void Start()
     {
-        // bắt đầu bắn sau 1 giây
+        // chờ enemy vào màn hình rồi mới cho bắn
         InvokeRepeating(nameof(Shoot), 1f, fireRate);
+    }
+
+    void Update()
+    {
+        CheckInCamera();
     }
 
     void Shoot()
     {
-        // nếu enemy đã chết thì đéo bắn nữa
         if (!isAlive) return;
-
+        if (!canShoot) return;
         if (bulletPrefab == null) return;
 
-        Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+        // spawn đạn hơi lệch xuống dưới cho đẹp + không đụng collider
+        Vector3 spawnPos = transform.position + Vector3.down * 0.5f;
+        Instantiate(bulletPrefab, spawnPos, Quaternion.identity);
+    }
+
+    void CheckInCamera()
+    {
+        Vector3 viewPos = Camera.main.WorldToViewportPoint(transform.position);
+
+        // enemy đã lọt hoàn toàn vào màn hình
+        if (viewPos.y < 1f && viewPos.y > 0f)
+        {
+            canShoot = true;
+        }
     }
 
     // gọi khi enemy chết
@@ -32,7 +50,6 @@ public class EnemyShoot : MonoBehaviour
 
     void OnDestroy()
     {
-        // đảm bảo enemy bị destroy thì ngừng bắn luôn
         CancelInvoke();
     }
 }

@@ -14,15 +14,16 @@ public class EnemySpawner : MonoBehaviour
     {
         cam = Camera.main;
 
-        // Tính biên camera theo thế giới
+        // tính kích thước camera
         float camHeight = cam.orthographicSize;
         float camWidth = camHeight * cam.aspect;
 
+        // biên trái phải (chừa lề cho enemy)
         minX = -camWidth + 0.5f;
         maxX = camWidth - 0.5f;
 
-        // spawn ngay MÉP TRÊN camera
-        spawnY = camHeight - 0.5f;
+        // spawn NGOÀI MÀN HÌNH (phía trên)
+        spawnY = camHeight + 1.5f;
 
         InvokeRepeating(nameof(SpawnEnemy), 1f, spawnInterval);
     }
@@ -32,7 +33,7 @@ public class EnemySpawner : MonoBehaviour
         if (enemyPrefab == null) return;
 
         float x = Random.Range(minX, maxX);
-        Vector3 spawnPos = new Vector3(x, spawnY, 0);
+        Vector3 spawnPos = new Vector3(x, spawnY, 0f);
 
         Instantiate(enemyPrefab, spawnPos, Quaternion.identity);
     }

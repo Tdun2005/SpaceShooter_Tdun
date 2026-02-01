@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 
     public TextMeshProUGUI scoreText;
     public GameObject gameOverText;
+    public GameObject restartButton;
 
     private int score = 0;
     private bool isGameOver = false;
@@ -22,16 +23,11 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        Time.timeScale = 1f;
         UpdateScore();
-        gameOverText.SetActive(false);
-    }
 
-    void Update()
-    {
-        if (isGameOver && Input.GetMouseButtonDown(0))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }
+        gameOverText.SetActive(false);
+        restartButton.SetActive(false);
     }
 
     public void AddScore(int amount)
@@ -50,7 +46,17 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         isGameOver = true;
+
         gameOverText.SetActive(true);
+        restartButton.SetActive(true);
+
         Time.timeScale = 0f;
+    }
+
+    // GỌI TỪ BUTTON
+    public void RestartGame()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }

@@ -3,15 +3,31 @@
 public class EnemyMove : MonoBehaviour
 {
     public float speed = 2f;
-    public float destroyY = -10f; // ra khỏi màn hình xa mới chết
+
+    private float minY;
+
+    void Start()
+    {
+        // lấy đáy màn hình theo camera
+        Camera cam = Camera.main;
+        Vector3 bottomLeft = cam.ViewportToWorldPoint(new Vector3(0, 0, 0));
+        minY = bottomLeft.y - 1f; // ra khỏi màn hình hẳn mới chết
+    }
 
     void Update()
     {
-        // enemy bay xuống
-        transform.Translate(Vector3.down * speed * Time.deltaTime);
+        MoveDown();
+        CheckOutOfScreen();
+    }
 
-        // chỉ destroy khi đi QUÁ XA màn hình
-        if (transform.position.y < destroyY)
+    void MoveDown()
+    {
+        transform.Translate(Vector3.down * speed * Time.deltaTime);
+    }
+
+    void CheckOutOfScreen()
+    {
+        if (transform.position.y < minY)
         {
             Destroy(gameObject);
         }
