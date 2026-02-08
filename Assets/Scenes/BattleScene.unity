@@ -1683,8 +1683,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 100, y: -30}
-  m_SizeDelta: {x: 200, y: 20}
+  m_AnchoredPosition: {x: 120, y: -40}
+  m_SizeDelta: {x: 300, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1819029127
 MonoBehaviour:
@@ -1749,7 +1749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8485cf4d7e5994459a1295a57e69fe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 50
+  defaultHealthPoint: 10
   healthSlider: {fileID: 1819029127}
 --- !u!1 &1901103307
 GameObject:
@@ -1879,8 +1879,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8485cf4d7e5994459a1295a57e69fe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHp: 50
-  healthSlider: {fileID: 0}
+  defaultHealthPoint: 50
+  healthSlider: {fileID: 1819029127}
 --- !u!1 &2038179269
 GameObject:
   m_ObjectHideFlags: 0

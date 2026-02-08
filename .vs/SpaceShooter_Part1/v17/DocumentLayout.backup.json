@@ -3,6 +3,62 @@
   "WorkspaceRootPath": "D:\\Unity\\SpaceShooter_Part1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\PlayerShoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerShoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\PlayerHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\EnemySpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\EnemySpawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\EnemyShoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\EnemyShoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\EnemyMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\EnemyMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\BulletMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\BulletMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\EnemyBulletMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\EnemyBulletMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\EnemyHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\EnemyHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\ParallaxScroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ParallaxScroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\PlanetDrift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlanetDrift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\ScrollBackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ScrollBackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\Blinking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Blinking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\ShowLog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ShowLog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,24 +70,193 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHealth.cs",
+              "ToolTip": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerHealth.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAIwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T07:07:33.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAIwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T07:02:45.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemySpawner.cs",
+              "DocumentMoniker": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\EnemySpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemySpawner.cs",
+              "ToolTip": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\EnemySpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemySpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T06:46:22.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnemyShoot.cs",
+              "DocumentMoniker": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\EnemyShoot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyShoot.cs",
+              "ToolTip": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\EnemyShoot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyShoot.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T06:27:20.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EnemyBulletMove.cs",
+              "DocumentMoniker": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\EnemyBulletMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyBulletMove.cs",
+              "ToolTip": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\EnemyBulletMove.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyBulletMove.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T06:24:58.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EnemyHealth.cs",
+              "DocumentMoniker": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\EnemyHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyHealth.cs",
+              "ToolTip": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\EnemyHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyHealth.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAIwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T06:16:19.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EnemyMove.cs",
+              "DocumentMoniker": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\EnemyMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyMove.cs",
+              "ToolTip": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\EnemyMove.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyMove.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T06:06:05.218Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayerShoot.cs",
+              "DocumentMoniker": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\PlayerShoot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerShoot.cs",
+              "ToolTip": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\PlayerShoot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerShoot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T05:48:34.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BulletMove.cs",
+              "DocumentMoniker": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\BulletMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BulletMove.cs",
+              "ToolTip": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\BulletMove.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BulletMove.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T05:47:23.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ParallaxScroll.cs",
+              "DocumentMoniker": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\ParallaxScroll.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ParallaxScroll.cs",
+              "ToolTip": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\ParallaxScroll.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ParallaxScroll.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T05:43:59.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlanetDrift.cs",
+              "DocumentMoniker": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\PlanetDrift.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlanetDrift.cs",
+              "ToolTip": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\PlanetDrift.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlanetDrift.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T21:19:35.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ScrollBackground.cs",
+              "DocumentMoniker": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\ScrollBackground.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScrollBackground.cs",
+              "ToolTip": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\ScrollBackground.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScrollBackground.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T21:17:37.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T20:59:14.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Blinking.cs",
+              "DocumentMoniker": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\Blinking.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Blinking.cs",
+              "ToolTip": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\Blinking.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Blinking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T20:55:41.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ShowLog.cs",
               "DocumentMoniker": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\ShowLog.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ShowLog.cs",
               "ToolTip": "D:\\Unity\\SpaceShooter_Part1\\Assets\\Scripts\\ShowLog.cs",
               "RelativeToolTip": "Assets\\Scripts\\ShowLog.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T20:50:40.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2026-01-24T20:50:40.668Z"
             }
           ]
         }

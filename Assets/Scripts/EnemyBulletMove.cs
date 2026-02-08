@@ -3,13 +3,13 @@
 public class EnemyBulletMove : MonoBehaviour
 {
     public float speed = 5f;
+    public float destroyY = -7f;
 
     void Update()
     {
         transform.Translate(Vector3.down * speed * Time.deltaTime);
 
-        // Ra khỏi màn hình thì hủy
-        if (transform.position.y < -6f)
+        if (transform.position.y < destroyY)
         {
             Destroy(gameObject);
         }

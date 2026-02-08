@@ -3,12 +3,13 @@
 public class BulletMove : MonoBehaviour
 {
     public float speed = 8f;
+    public float destroyY = 7f;
 
     void Update()
     {
         transform.Translate(Vector3.up * speed * Time.deltaTime);
 
-        if (transform.position.y > 6f)
+        if (transform.position.y > destroyY)
         {
             Destroy(gameObject);
         }
@@ -27,5 +28,4 @@ public class BulletMove : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
 }

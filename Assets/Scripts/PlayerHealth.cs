@@ -1,47 +1,39 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerHealth : MonoBehaviour
+public class PlayerHealth : Health
 {
-    public int maxHp = 50;
-    private int currentHp;
-
     [Header("UI")]
     public Slider healthSlider;
 
-    void Start()
+    protected override void Start()
     {
-        currentHp = maxHp;
+        base.Start();
 
         if (healthSlider != null)
         {
-            healthSlider.maxValue = maxHp;
-            healthSlider.value = currentHp;
+            healthSlider.maxValue = defaultHealthPoint;
+            healthSlider.value = healthPoint;
         }
     }
 
-    public void TakeDamage(int damage)
+    public override void TakeDamage(int damage)
     {
-        currentHp -= damage;
+        base.TakeDamage(damage);
 
         if (healthSlider != null)
         {
-            healthSlider.value = currentHp;
-        }
-
-        if (currentHp <= 0)
-        {
-            Die();
+            healthSlider.value = healthPoint;
         }
     }
 
-    void Die()
+    protected override void Die()
     {
         if (GameManager.instance != null)
         {
             GameManager.instance.GameOver();
         }
 
-        Destroy(gameObject);
+        base.Die();
     }
 }

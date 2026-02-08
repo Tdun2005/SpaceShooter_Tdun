@@ -2,18 +2,24 @@
 
 public class EnemyHealth : MonoBehaviour
 {
-    public int hp = 3;
-    public GameObject explosionPrefab;
+    public int maxHp = 3;
+    private int currentHp;
 
+    public GameObject explosionPrefab;
     private bool isDead = false;
+
+    void Start()
+    {
+        currentHp = maxHp;
+    }
 
     public void TakeDamage(int damage)
     {
         if (isDead) return;
 
-        hp -= damage;
+        currentHp -= damage;
 
-        if (hp <= 0)
+        if (currentHp <= 0)
         {
             Die();
         }
@@ -23,7 +29,7 @@ public class EnemyHealth : MonoBehaviour
     {
         isDead = true;
 
-        // Ngừng bắn ngay
+        // Ngừng bắn
         EnemyShoot shoot = GetComponent<EnemyShoot>();
         if (shoot != null)
         {
@@ -36,7 +42,7 @@ public class EnemyHealth : MonoBehaviour
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
         }
 
-        // Nếu có GameManager thì cộng điểm
+        // Cộng điểm
         if (GameManager.instance != null)
         {
             GameManager.instance.AddScore(10);
