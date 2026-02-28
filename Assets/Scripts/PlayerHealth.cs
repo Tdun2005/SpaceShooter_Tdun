@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class PlayerHealth : Health
@@ -10,6 +10,7 @@ public class PlayerHealth : Health
     {
         base.Start();
 
+        // setup thanh máu
         if (healthSlider != null)
         {
             healthSlider.maxValue = defaultHealthPoint;
@@ -19,16 +20,28 @@ public class PlayerHealth : Health
 
     public override void TakeDamage(int damage)
     {
+        // nếu đã chết rồi thì khỏi trừ máu
+        if (isDead) return;
+
         base.TakeDamage(damage);
 
+        // cập nhật UI
         if (healthSlider != null)
         {
-            healthSlider.value = healthPoint;
+            healthSlider.value = Mathf.Clamp(healthPoint, 0, defaultHealthPoint);
         }
     }
 
     protected override void Die()
     {
+        // khóa bắn
+        PlayerShoot shoot = GetComponent<PlayerShoot>();
+        if (shoot != null)
+        {
+            shoot.DisableShoot();
+        }
+
+        // Game Over
         if (GameManager.instance != null)
         {
             GameManager.instance.GameOver();
