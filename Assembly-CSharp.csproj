@@ -66,6 +66,7 @@
     <Compile Include="Assets\Space Shooter Template FREE\Scripts\PoolingController.cs" />
     <Compile Include="Assets\Scripts\PlanetDrift.cs" />
     <Compile Include="Assets\Space Shooter Template FREE\Scripts\DirectMoving.cs" />
+    <Compile Include="Assets\Scripts\FlyPathAgent.cs" />
     <Compile Include="Assets\Scripts\ParallaxScroll.cs" />
     <Compile Include="Assets\Space Shooter Template FREE\Scripts\PlayerMoving.cs" />
     <Compile Include="Assets\Scripts\EnemySpawner.cs" />
@@ -76,6 +77,7 @@
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Space Shooter Template FREE\Scripts\Bonus.cs" />
     <Compile Include="Assets\Space Shooter Template FREE\Scripts\FollowThePath.cs" />
+    <Compile Include="Assets\Scripts\FlyPath.cs" />
     <Compile Include="Assets\Space Shooter Template FREE\Scripts\Player.cs" />
     <Compile Include="Assets\Space Shooter Template FREE\Scripts\Wave.cs" />
     <Compile Include="Assets\Scripts\EnemyBulletMove.cs" />
